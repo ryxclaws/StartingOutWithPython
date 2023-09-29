@@ -6,9 +6,9 @@ def main():
     # get the total
     index=0
     total=0.0
-    while index<len(rainfall_monthly):
-        total+=rainfall_monthly[index]
-        index+=1
+    while index < len(rainfall_monthly):
+        total += rainfall_monthly[index]
+        index += 1
     
     print()
     print("The total rainfall is", total)
@@ -19,7 +19,7 @@ def main():
     print(rainfall_monthly.index(min(rainfall_monthly))+1)
     
     # get the maximum.
-    print("The minimum rainfall was", max(rainfall_monthly), "in the month #", end="")
+    print("The maximum rainfall was", max(rainfall_monthly), "in the month #", end="")
     print(rainfall_monthly.index(max(rainfall_monthly))+1)
     
 def get_rainfall():
